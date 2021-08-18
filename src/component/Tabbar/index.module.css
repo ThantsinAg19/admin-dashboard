@@ -1,0 +1,59 @@
+.Row{
+    display:flex;
+    display:-webkit-flex;
+    flex-flow:row nowrap;
+    position: sticky;
+    top: 64px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  
+  .RowScroll{
+    display:flex;
+    display:-webkit-flex;
+    overflow-x:hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+  
+  }
+
+
+  .RowScroll > * {
+    -webkit-flex:0 0 auto;
+  }
+
+  .RowScroll > :first-child{
+    margin-left: 0;
+  }
+  
+  .RowScroll > :last-child{
+    margin-right: 0;
+  }
+
+  .TabItemFrame{
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 4px 4px 0px 0px;
+    color:rgb(167, 167, 167);
+    padding-left: 12px;
+  }
+
+  .TabItemFrame_Current_Tab{
+    border-top: 1px solid rgb(173, 173, 173);
+    border-left: 1px solid rgb(173, 173, 173);
+    border-right: 1px solid rgb(173, 173, 173);
+    border-bottom: 1px solid gray;
+    border-radius: 4px 4px 0px 0px;
+    background-color: gray;
+    color:white;
+    padding-left: 12px;
+  }
+
+  .TabItemLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+  }

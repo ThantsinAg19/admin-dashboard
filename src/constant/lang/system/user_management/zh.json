@@ -1,0 +1,14 @@
+{
+    "user_management": "用户管理",
+    "add_new_user": "增加新用户",
+    "_id":"Id",
+    "name":"名称",
+    "phonenumber":"手机号",
+    "branch":"网点",
+    "role":"角色",
+    "address": "地址",
+    "created_at":"创建时间",
+    "verified":"验证",
+    "updated_at":"更新时间",
+    "-":""
+}

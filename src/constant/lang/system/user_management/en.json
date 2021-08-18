@@ -1,0 +1,14 @@
+{
+    "user_management": "User Management",
+    "add_new_user": "Add new user",
+    "_id":"Id",
+    "name":"name",
+    "phonenumber":"phone",
+    "branch":"branch",
+    "role":"role",
+    "address": "Address",
+    "created_at":"created At",
+    "verified":"verified",
+    "updated_at":"updated At",
+    "-":""
+}
